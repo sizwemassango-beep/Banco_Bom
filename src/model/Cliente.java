@@ -18,6 +18,7 @@ public class Cliente implements Serializable, Comparable<Cliente> {
     private String id;
     private Date dataNascimento;
     private ArrayList<Conta> contas;
+    private int cnpj;
 
     // ── Construtor 
     public Cliente(String nome, String id, Date dataNascimento) {
